@@ -1,0 +1,98 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+  height: 100vh;
+  width: 100%;
+  background-image: url("123.jpg");
+  position:relative;
+  background-size: cover;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /*Hide horizontal scrollbar*/
+}
+
+.navbar-brand{
+  font-size: 250%;
+  color:cornflowerblue;
+  padding-left: 110px;
+}
+
+.nav-link{
+  color:cornflowerblue;
+  font-size: 150%;
+  word-spacing: 30px;
+}
+
+.home-nav{
+  margin-left: 850px;
+  font-size: 150;
+}
+
+.nav-item{
+  padding-left: 25px;
+}
+
+.h1{
+  padding-top: 200px;
+  color: navy;
+  padding-left: 70px;
+  font-size: 430%;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+.h2{
+  margin-top: 15px;
+  color:grey;
+  margin-left: 70px;
+  font-size: 190%;
+  font-weight: bold;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn-success{
+  width: 150px;
+  height: 55px;
+  margin-top: 30px;
+  padding-top: 10px;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.btn-light{
+  width: 150px;
+  height: 55px;
+  margin-top: 30px;
+  padding-top: 10px;
+  margin-left: 20px;
+  border-radius: 20px;
+  color:green;
+  border-color: green;
+}
+
+.main-image{
+  top: 155px;
+  left: 920px;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+}
+
+.logo-image{
+  bottom: 1070px;
+  right: 1980px;
+  position: absolute;
+  width: 150px;
+  height: 50px;
+}
+
+.social-image{
+  margin-top: 90px;
+  margin-left: 1430px;
+  position: absolute;
+}
